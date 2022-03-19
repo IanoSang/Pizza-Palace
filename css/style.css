@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    color: white;
+    /*color: white;*/
 }
 .bar{
     background-image: url(../images/pizza4.jpg);
@@ -85,4 +85,31 @@ button {
     font-family: "helvetica";
     margin-right: 60px;
     align-items: center;
+}
+#menu{
+    color: black;
+}
+#bounce {
+    animation: bounce 3s infinite;
+    padding-top:20%;
+    color: #e23e57;
+}
+
+@keyframes bounce {
+
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
+        transform: translateY(0);
+    }
+
+    40% {
+        transform: translateY(-55px);
+    }
+
+    60% {
+        transform: translateY(-45px);
+    }
 }
