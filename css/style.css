@@ -2,4 +2,87 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    color: white;
+}
+.bar{
+    background-image: url(../images/pizza4.jpg);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+}
+li{
+    list-style: none;
+    justify-content: space-around;
+    margin-right: 80px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.navbar {
+    float: right;
+    text-decoration: none;
+    display: inline-flex;
+    font-size: x-large;
+    color: black;
+    padding: 40px;
+    margin-right: 20px;
+    position: absolute;
+    top:0;
+    right:0;
+    justify-content: space-between;
+    margin-top: -100px;
+}
+.home {
+    margin-right: 20px;
+    padding: 20px;
+    
+}
+
+.firstdiv {
+    display:flex;
+    padding: 10px;
+    margin: 30px;
+    margin-top: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button {
+    border: none;
+    border-color: rgb(255, 166, 0);
+    height: 50px;
+    width: 120px;
+    font-size: 20px;
+    background-color: rgb(255, 166, 0);
+    color: white;
+    margin-top: 90px;
+    border-radius: 45% 45% 0% 45%;
+ 
+}
+.home {
+    margin-right: 20px;
+    padding: 20px;
+    
+}
+
+.firstdiv {
+    display:flex;
+    padding: 10px;
+    margin: 30px;
+    margin-top: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+.rain {
+    padding-left: 20px;
+    align-items: center;
+    font-size: 30px;
+}
+.fist{
+    display: flex;
+    font-family: "helvetica";
+    margin-right: 60px;
+    align-items: center;
 }
