@@ -94,6 +94,25 @@ button {
     padding-top:20%;
     color: #e23e57;
 }
+.deliveries {
+    display: flex;
+    float: left;
+    background-color: rgb(239, 253, 255);
+    padding: 100px 10px 100px 10px;
+    height:100%;
+
+}
+.about-text {
+    border: 1.5px solid rgb(114, 69, 69);
+    padding: 10px;
+    margin: 20px;
+    float: left;
+    width: 30%;
+    text-align: center;
+    border-radius: 25px;
+}
+
+
 
 @keyframes bounce {
 
