@@ -223,3 +223,28 @@ li {
         transform: translateY(-45px);
     }
 }
+
+.footer {
+    background-color: rgb(5,5,7);
+    width: 100%;
+    text-decoration: none;
+    display: inline-flex;
+    font-size: x-large;
+    color: black;
+    padding: 20px;
+    justify-content: space-between;
+}
+.footer a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.footer a:hover {
+    background: #ddd;
+    color: black;
+}
