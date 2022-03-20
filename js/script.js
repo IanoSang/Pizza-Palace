@@ -12,10 +12,6 @@ function Getpizza( name,size,crust,topping, total ){
 $(document).ready(function(){
     $("button.proceed").click(function(event){
         //Order Now Button
-        $("button.button").click(function (event) {
-            $(this).find(".rain").toggle();
-            $(this).find(".order").toggle();
-        });
         let pname = $(".name option:selected").val();
         let psize = $("#size option:selected").val();
         let pcrust = $("#crust option:selected").val();
@@ -34,11 +30,11 @@ $(document).ready(function(){
                 console.log(price);
                 break;
             case "medium":
-                price = 850;
+                price = 800;
                 console.log("The price is "+price);
                 break;
             case "small":
-                price = 600;
+                price = 550;
                 console.log(price);
             default:
                 console.log("error");
@@ -105,11 +101,11 @@ $(document).ready(function(){
                     console.log(price);
                     break;
                 case "medium":
-                    price = 850;
+                    price = 800;
                     console.log("The price is "+price);
                     break;
                 case "small":
-                    price = 600;
+                    price = 550;
                     console.log(price);
                 default:
                     console.log("error");
@@ -162,7 +158,7 @@ $(document).ready(function(){
             $("#addedprice").hide();
             $("button.deliver").hide();
             $("#pizzatotal").hide();
-            let deliceryamount= checkoutTotal+150;
+            let deliceryamount= checkoutTotal+200;
             console.log("You will pay sh. "+deliceryamount+" on delivery");
             $("#totalbill").append("Your bill plus delivery fee is: "+deliceryamount);
         });
@@ -174,7 +170,7 @@ $(document).ready(function(){
             $("#pizzatotal").hide();
             $(".delivery").hide();
             $("button#final-order").hide();
-            let deliceryamount= checkoutTotal+150;
+            let deliceryamount= checkoutTotal+200;
             console.log("Final Bill is: "+deliceryamount);
             let person = $("input#name").val();
             let phone = $("input#phone").val();
