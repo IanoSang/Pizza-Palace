@@ -156,7 +156,8 @@ li {
     padding-left: 20px;
     align-items: center;
     font-size: 30px;
-    color: whitesmoke;
+    color: #FFFFFF;
+    font-family: tangerine;
 }
 .brand{
     display: flex;
